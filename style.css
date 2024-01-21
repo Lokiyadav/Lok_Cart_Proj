@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    display: flex;
+    background-color: rgba(0, 0, 255, 0.37);
+    width: 100%;
+   position: fixed;
+   z-index: 99;
+}
+.logo img{
+    display: flex;
+    justify-content: center;
+    width: 45%;
+    padding:6% 6%;
+
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    padding:10% 15%;
+   list-style: none;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size:1.1rem;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 50%;
+    left: 42%;
+    width: 19%;
+    height: 4%;
+}
+.search input{
+  border-radius: 5px;
+  border:2px solid black ;
+  padding: 2% 5%;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 58%;
+    top: 30%;
+}
+.btn .ser-btn{
+    border: 2px solid black;
+    padding: 5% 14%;
+    border-radius: 13px;
+    cursor:pointer;
+}
+
+.login-reg{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    position: absolute;
+    left: 80%;
+    top: 13%;
+}
+
+.cart{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 94%;
+    top: 1%;
+}
+.cart .cart-icon{
+    width: 50%;
+    background-color: #fbf7f7;
+    border: 1px solid black;
+    border-radius: 20px;
+    cursor:pointer;
+}
+
+/* main section */
+.container1{
+    background: linear-gradient(45deg, #114bf5, transparent);
+
+}
+ .slider{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6% 0 2% 0;
+} 
+.slider-img img{
+    width: 100%;
+} 
+/* Item section */
+.cart1{
+    background-color: #a7c2ff;
+    width: 100%;
+    padding:2% 0;
+}
+.cart-item img{
+    cursor: pointer;
+    width: 55%;
+    padding: 1% 1%;
+}
+.lines{
+    cursor: pointer;
+    text-align: center;
+    width: 54%;
+}
+.text-center-cart1{
+    margin: 4%;
+}
+
+.cart1{
+    display: flex;
+}
+.sports{
+    width:27%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+.sports img{
+    width: 64%;
+    border-radius: 95px;
+    position: relative;
+    left: 18%;
+}
+.sports p{
+    position: relative;
+    left: 26%;
+    width: 45%
+}
+hr{
+    color: black;
+    border: 1px solid black
+}
+
+.cart-item{
+    /* cursor: pointer; */
+    padding:0 2%;
+    width: 28%;
+}
+
+.Electric{
+    width: 27%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.Electric img{
+    width: 60%;
+border-radius: 69%;
+position: relative;
+left: 20%;
+}
+.Electric p{
+    position: relative;
+left: 26%;
+width: 45%;
+}

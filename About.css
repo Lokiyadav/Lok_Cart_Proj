@@ -1,0 +1,141 @@
+@media(max-width:1106px) and (min-width:400px){
+    #container{
+        flex-direction: column;
+    }
+    .intro-flipcart img{
+        width: 50%;
+    }
+    .work-with-about h1{
+    position: relative;
+    bottom: 7px;
+    }
+    .leav-mark-img{
+        display: flex;
+justify-content: center;
+align-items: center;
+    }
+
+    /* .Experiment-about .heading{
+       
+        bottom: 7px;
+    }
+    .work-with-about .heading{
+        bottom: 7px;
+    }
+    .leav-mark .heading{
+        bottom: 7px;
+    } */
+}
+
+/* About Navbar */
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.navbar{
+    background-color: blue;
+    position: fixed;
+    width: 100%;
+    margin: -1% 0;
+    z-index: 99;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul .logo{
+    display: flex;
+   width: 10%;
+   padding:1% 3%;
+}
+.navbar ul li{
+    list-style: none;
+    padding: 1% 3%;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size:1.3rem;
+}
+/* About main section */
+.About-container{
+   width: 100%;
+   height: 100%;
+}
+.intro-flipcart {
+   background-color: yellow;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 39px 15px;
+   font-family: 'Poppins', sans-serif;
+   margin: 7px;
+   position: relative;
+   top: 9%;
+}
+
+.leav-mark-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px 31px;
+    position: relative;
+    top: 6%;
+}
+
+.leav-mark-img{
+    width: 40%;
+}
+.leav-mark{
+    padding: 3% 8%;
+}
+.leav-mark .heading{
+    position: relative;
+    bottom: 15px;
+}
+.leav-mark p{
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.Experiment-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 94px 56px;
+  }
+.Experiment-about h1{
+    position: relative;
+bottom: 15px;
+}
+.Experiment-about p{
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.Experiment-about{
+    padding: 1% 2%;
+}
+
+.Work-With-container{
+    display: flex;
+justify-content: center;
+align-items: center;
+margin: 94px 56px;
+}
+
+.work-with-about .heading{
+    position: relative;
+bottom: 15px;
+}
+.work-with-about p{
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.work-with-about{
+    padding: 1% 2%;
+}
